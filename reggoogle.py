@@ -1,9 +1,11 @@
 import os,time,sys
 try: 
+    from faker import faker
     import random,re
     from random import randint
 except:
     os.system("pip install faker")
+from faker import faker
 import random,re
 from random import randint
 
